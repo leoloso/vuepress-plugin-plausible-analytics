@@ -14,7 +14,7 @@ yarn add -D vuepress-plugin-plausible-analytics
 
 Add in file `.vuepress/config.js`:
 
-```json
+```js
 module.exports = {
   plugins: [
     "plausible-analytics",
