@@ -17,7 +17,7 @@ Add in file `.vuepress/config.js`:
 ```json
 module.exports = {
   plugins: [
-    "vuepress-plugin-plausible-analytics",
+    "plausible-analytics",
   ]
 }
 ```
