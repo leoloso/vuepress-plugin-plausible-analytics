@@ -3,12 +3,19 @@
   "version": "0.1.0",
   "description": "VuePress plugin to add analytics from plausible.io",
   "main": "index.js",
-  "repository": "https://github.com/leoloso/vuepress-plugin-plausible-analytics",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoloso/vuepress-plugin-plausible-analytics.git"
+  },
   "author": "Leo <leo@getpop.org>",
   "license": "MIT",
   "keywords": [
     "vuepress",
     "plausible",
     "analytics"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/leoloso/vuepress-plugin-plausible-analytics/issues"
+  },
+  "homepage": "https://github.com/leoloso/vuepress-plugin-plausible-analytics"
 }
