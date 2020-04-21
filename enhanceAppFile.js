@@ -9,11 +9,8 @@ export default () => {
             js.src = f;
             js.async = 1;
             fjs.parentNode.insertBefore(js, fjs);
-        } (window, document, 'script', 'plausible', 'https://plausible.io/js/p.js'))
+        } (window, document, 'script', 'plausible', 'https://'+PLAUSIBLE_DOMAIN+'/js/plausible.js'))
         
-        window.plausible('page')
-        window.plausible('trackPushState')
+        window.plausible()
     }
 }
-
-    
