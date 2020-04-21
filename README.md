@@ -22,6 +22,20 @@ module.exports = {
 }
 ```
 
+## Configuration
+
+Pass `domain` to use your custom domain:
+
+```js
+module.exports = {
+  plugins: [
+    ["plausible-analytics", {
+      domain: 'stats.yoursite.com'
+    }]
+  ]
+}
+```
+
 ## License
 
 MIT
