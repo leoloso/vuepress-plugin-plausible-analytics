@@ -10,7 +10,5 @@ export default () => {
             js.async = 1;
             fjs.parentNode.insertBefore(js, fjs);
         } (window, document, 'script', 'plausible', 'https://'+PLAUSIBLE_DOMAIN+'/js/plausible.js'))
-        
-        window.plausible()
     }
 }
