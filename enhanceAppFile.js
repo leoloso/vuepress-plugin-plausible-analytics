@@ -7,7 +7,9 @@ export default () => {
             js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
             js.id = o;
             js.src = f;
-            js.async = 1;
+            js.async = true;
+            js.defer = true;
+            js.dataset['domain'] = DOMAIN
             fjs.parentNode.insertBefore(js, fjs);
         } (window, document, 'script', 'plausible', 'https://'+PLAUSIBLE_DOMAIN+'/js/plausible.js'))
     }
